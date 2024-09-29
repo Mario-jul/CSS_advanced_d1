@@ -1,10 +1,97 @@
-.conteiner{
+main{
     display: flex;
-    flex-wrap: wrap;
-    background-color: rgba(255,255,255, 0.5);
-    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    width: 500px;
 }
 div{
     padding: 10px;
     text-align: center;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-color: rgb(187, 187, 187);
+    border-width: 0.5px;
+}
+.myperfil{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-style: solid;
+    border-color: rgb(187, 187, 187);
+    border-width: 0.5px;
+    margin: 0px;
+    padding: 0px;
+}
+.personal{
+    display: flex;
+    align-items:center;
+}
+.name{
+    margin: 0.5em;
+}
+.status{
+    margin: 0.5em;
+}
+.main i{
+   margin: 10px;
+}
+.icons{
+    display: flex;
+}
+.icon{
+    margin: 10px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: rgb(187, 187, 187);
+    border-width: 0.5px;
+    height: 100px;
+    
+}
+button{
+    width: 80%;
+    height: 50%;
+    background-color: #A491D2;
+    color: white;
+    border-color: #A491D2;
+    font-size: large;
+}
+.photo{
+    border-radius: 50%;
+    resize: both;
+    height: 50px;
+    width: 50px;
+    margin: 10px 3px 10px 10px;
+
+}
+.board{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: rgb(243, 241, 241);
+
+}
+.logo{
+    width: 300px;
+    height: 300px;
+}
+.title{
+    font-size: 3rem;
+    margin: 0.5em;
+}
+.paragraf{
+    margin: 0.3em;
 }
